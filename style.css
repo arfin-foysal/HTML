@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.hero_contaner{
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(155, 155, 39, 0.5),
+        rgba(155, 155, 39, 0.534)),url(img/samsung.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav_manu{
+    height: 10%;
+    display: flex;
+    position: relative;
+}
+
+.nav_left{
+    flex-basis: 30%;
+    position: relative;
+
+
+}
+.logo>a { 
+   top: 30%;
+   left: 30%;
+  
+    position: absolute;
+    color: white;
+    font-size: 30px;
+
+
+}
+.nav_right{
+    flex-basis: 70%;
+    position: relative;
+  
+}
+.nav_bar{
+    top:40%;
+    right:10%;
+    position: absolute;
+}
+.nav_bar ul li {
+  
+list-style: none;
+display: inline-block;
+padding-left: 10px;
+
+}
+.nav_bar ul li a{
+
+    color: whitesmoke;
+    font-size: 20px;
+}
+.nav_bar ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    border-bottom: solid yellow;
+    padding-bottom:10px;
+    font-size: 20px;
+}
+
+.text{
+margin: auto;
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+/* .text h2{
+    text-align: center;
+    color:cornsilk;
+    font-size: 50px;
+/* } */
+
+.text p{
+  line-height: 3em;
+} 
+
+.text_style{
+    text-align: center;
+}
+
+.button a {
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: transparent;
+    border: solid white;
+  letter-spacing: 2px;
+  color: aliceblue;
+    
+}
+.button{
+    margin-top: 30px;
+}
+
+.services{
+    display: flex;
+    
+}
